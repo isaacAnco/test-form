@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Document</title>
+</head>
+<body> 
+
+    <form action="" class="container" id="contenedor">
+        <label for="" class="container__text">nombre</label>
+        <input type="text" placeholder="nombre" class="container__input" required="" id="nombre" name="nombre">
+        <p id="parrafo" class="container__validar-nombre">
+            el nombre es incorrecto
+        </p>
+
+        <label for="" class="container__text">correo</label>
+        <input type="email" placeholder="correo@" class="container__input" required="" id="correo" name="correo">
+        <p class="container__validar-correo" id="textC">
+            el correo es incorrecto
+        </p>
+
+        <label for="" class="container__text">contraseña</label>
+        <input type="password" class="container__input" required="" id="password" name="password">
+        <p class="container__validar-password" id="textP"> la contraseña es incorrecta</p>
+
+        <label for="" class="container__text">repite tu contraseña</label>
+        <input type="password" class="container__input" required="" id="password2" name="password2">
+        <p id="textP2" class="container__validar-password2">
+            la contraseña no son iguales
+        </p>
+
+        <input type="submit" class="container__btn" id="btn">
+        <p id="incorrecto" class="container__incorrecto"> los campos deben ser correctos</p>
+
+    </form>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
